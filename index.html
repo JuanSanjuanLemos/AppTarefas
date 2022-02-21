@@ -5,15 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>App de tarefas</title>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main-article.css">
+    <link rel="stylesheet" href="css/main-button.css">
+    <link rel="stylesheet" href="css/main-title.css">
+    <link rel="stylesheet" href="css/wrapper-input.css">
 </head>
 <body>
     <article class="main-article">
         <h1 class="main-title">MyTasks</h1>
-        <div class="wrapper input">
-            <label for="text">Inserir Tarefa:</label>
-            <input type="text" name="text" id="text" placeholder="Digite a tarefa">
-            <input type="button" value="Adicionar">
+        <div class="wrapper-input">
+            <label for="input-tasks">Inserir Tarefa:</label>
+            <input type="text" name="input-tasks" id="input-tasks" placeholder="Digite a tarefa">
         </div>
+            <input type="button" class="main-button" value="Adicionar">
     </article>
 </body>
 </html>

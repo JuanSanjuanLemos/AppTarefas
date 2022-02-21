@@ -1,0 +1,14 @@
+.wrapper-input{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 200px;
+}
+
+.wrapper-input #input-tasks{
+    border: none;
+    height: 25px;
+    border-radius: 4px;
+}
