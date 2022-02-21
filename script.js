@@ -29,20 +29,21 @@ function createCodeLi(task){
 
     let span = document.createElement("span");
     span.innerHTML = task.name;
-    span.id= `span${task.id}`
+    span.id= `span${task.id}`;
+    span.classList.add("task-text");
 
     let div = document.createElement("div");
-    div.classList.add("wrapper-buttons")
+    div.classList.add("wrapper-buttons");
 
     let btnEdit = document.createElement("button");
     btnEdit.classList.add("button-action");
     btnEdit.innerHTML = '<i class="fa fa-pencil"></i>';
-    btnEdit.setAttribute('onclick', `Edit(${task.id})`)
+    btnEdit.setAttribute('onclick', `Edit(${task.id})`);
 
     let btnDel = document.createElement("button");
-    btnDel.classList.add("button-action")
+    btnDel.classList.add("button-action");
     btnDel.innerHTML = '<i class="fa fa-trash"></i>';
-    btnDel.setAttribute('onclick', `Del(${task.id})`)
+    btnDel.setAttribute('onclick', `Del(${task.id})`);
 
     div.appendChild(btnEdit);
     div.appendChild(btnDel);
