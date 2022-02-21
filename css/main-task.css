@@ -1,0 +1,12 @@
+.main-task{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1b1c20;
+    width: 200px;
+    height: 40px;
+    margin: 20px 0;
+    padding: 10px 5px;
+    color: #fff;
+    box-sizing: border-box;
+    border-radius: 4px;
+}

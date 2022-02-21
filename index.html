@@ -5,11 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>App de tarefas</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/button-action.css">
     <link rel="stylesheet" href="css/main-article.css">
     <link rel="stylesheet" href="css/main-button.css">
+    <link rel="stylesheet" href="css/main-task.css">
     <link rel="stylesheet" href="css/main-title.css">
+    <link rel="stylesheet" href="css/wrapper-buttons.css">
     <link rel="stylesheet" href="css/wrapper-input.css">
 </head>
 <body>
@@ -19,7 +23,10 @@
             <label for="input-tasks">Inserir Tarefa:</label>
             <input type="text" name="input-tasks" id="input-tasks" placeholder="Digite a tarefa">
         </div>
-            <input type="button" class="main-button" value="Adicionar">
+            <input type="button" class="main-button" id="add" value="Adicionar">
+        <ul class="list-tasks">
+        </ul>
     </article>
+    <script src="script.js"></script>
 </body>
 </html>

@@ -1,0 +1,7 @@
+.button-action{
+    cursor: pointer;
+    border: none;
+    width: 30px;
+    border-radius: 20px;
+    background-color: rgb(115, 111, 111);
+}
