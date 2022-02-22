@@ -1,12 +1,8 @@
 const buttonAdd = document.getElementById("add");
 let ulListTasks = document.querySelector(".list-tasks");
-let codLi;
 let task;
-let codListTasks=[];
 
-buttonAdd.addEventListener("click",function(){
-    getTask();
-})
+buttonAdd.addEventListener("click",getTask)
 
 function getTask(){
     task = {
